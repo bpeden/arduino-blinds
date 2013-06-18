@@ -1,10 +1,9 @@
 // Blinds - A Program to operate a motor that opens and closes blinds according to a schedule.
 
 //Circuit:
-//  2 -> Push Button Hour
-//  3 -> Push Button Min
-// Note - There are only 2 external interrupt capable pins! I need a mode switch, and to re-label the buttons up and down.
-// I can poll the mode switch pin to see what needs to go up or down - the trigger time or the current time.
+//  2 -> Push Button "Mode"
+//  3 -> Push Button "Set"
+
 
 #define BLIND_MOVING 0
 #define BLIND_TOP 1
